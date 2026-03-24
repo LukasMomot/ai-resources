@@ -1,5 +1,5 @@
 ---
-agent: agent
+agent: ask
 name: improvePrompt
 description: Improve a software engineering prompt using a structured pattern.
 ---
@@ -92,5 +92,7 @@ But if the text mentions to implement directly then do this and not break into p
 - If phase control mentioned, use "**STOP.**" between phases
 - Preserve ALL technical details from original instruction
 
-Original instruction:
+IMPORTANT: Don't implement or write code. Just extract and structure the information as per the format above.
+
+Original instruction where you extract the information:
 [PASTE USER INPUT HERE]
